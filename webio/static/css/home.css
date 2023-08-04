@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: whitesmoke;
+}
+
+.container-fluid {
+    position:relative;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-fluid#first-con {
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid#first-con .wrapper{
+    display: inline-flex;
+}
+
+.container-fluid#first-con .wrapper .static-txt{
+    font-size: 80px;
+    color: whitesmoke;
+    font-weight: 400;
+    z-index: 3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 10px;
+    margin-right: 15px;
+    height: 120px;
+    line-height: 120px;
+    
+    overflow: hidden;
+    
+}
+.dynamic-txts li {
+    color: whitesmoke;
+    list-style: none;
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 4s steps(4) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -480px;
+    }
+}
+
+.dynamic-txts li span{
+     position: relative;
+}
+
+.dynamic-txts li span::after{
+    content:  "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid whitesmoke;
+    left: 0;
+    animation: typing 1s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -100px 0 35px;
+    }
+}
+
+
+
+
+
