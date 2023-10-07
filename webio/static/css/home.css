@@ -251,12 +251,14 @@ ul {
 
 #fourth-con #one .txt-con .title-txt{
     margin-bottom: 12rem;
+    z-index: 5;
 }
 
 #fourth-con #one .txt-con .body-txt{
     width: 22rem;
     position: relative;
     bottom: 9rem;
+    z-index: 5;
 }
 
 #fourth-con #one .image-con{
@@ -272,6 +274,7 @@ ul {
 
 #fourth-con #one #UIA2 {
     height: 32rem; 
+    filter: drop-shadow(5px 8px 4px rgba(9, 8, 8, 1));
 }
 
 #fourth-con #one #UIA1 {
@@ -279,11 +282,14 @@ ul {
     position: absolute;   
     bottom: -2rem; 
     right: -2.5rem;
+    z-index: 5;
+    filter: drop-shadow(5px 8px 4px rgba(9, 8, 8, 1));
 
 }
 
 #fourth-con #one #UIB2 {
     height: 32rem;
+    filter: drop-shadow(5px 8px 4px rgba(9, 8, 8, 1));
 }
 
 #fourth-con #one #UIB1 {
@@ -291,6 +297,8 @@ ul {
     position: absolute;   
     bottom: -2rem; 
     right: -2.5rem;
+    z-index: 5;
+    filter: drop-shadow(5px 8px 4px blrgba(9, 8, 8, 1));
 }
 
 
