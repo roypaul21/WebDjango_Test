@@ -251,14 +251,21 @@ ul {
 
 #fourth-con #one .txt-con .title-txt{
     margin-bottom: 12rem;
+    color: aqua;
+}
+
+#fourth-con #one .txt-con .title-txt. h2 {
     z-index: 5;
 }
+
+#fourth-con #one .txt-con .body-txt {
+    z-index: 5;
+ }
 
 #fourth-con #one .txt-con .body-txt{
     width: 22rem;
     position: relative;
     bottom: 9rem;
-    z-index: 5;
 }
 
 #fourth-con #one .image-con{
@@ -306,12 +313,104 @@ ul {
 
 /* 2nd slide */
 #fourth-con #two{
-    background-color: red;
+    background-color: none;
 }
+
+#fourth-con #two .txt-con {
+    margin-left: 10rem;
+    position: relative;
+}
+
+#fourth-con #two .txt-con .title-txt{
+   margin-bottom: 12rem;
+   color: skyblue;
+}
+
+#fourth-con #two .txt-con .title-txt. h2 {
+   z-index: 5;
+}
+
+#fourth-con #two .txt-con .body-txt {
+   z-index: 5;
+}
+
+#fourth-con #two .txt-con .body-txt{
+   width: 22rem;
+   position: relative;
+   bottom: 9rem;
+}
+
+#fourth-con #two .image-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+}
+
+#fourth-con #two .image-con #DC1 {
+    width: 40rem;
+}
+
+#fourth-con #two .image-con #DC2 {
+    height: 25rem;
+    position: absolute;
+    margin-left: 37rem;
+    margin-top: 13rem;
+    z-index: 5;
+}
+
+
 
 /* 3rd slide */
 #fourth-con #three{
-    background-color: yellow;
+    background-color: none;
+}
+
+#fourth-con #three .txt-con {
+    margin-left: 10rem;
+    position: relative;
+}
+
+#fourth-con #three .txt-con .title-txt{
+   margin-bottom: 12rem;
+   color: skyblue;
+}
+
+#fourth-con #three .txt-con .title-txt. h2 {
+   z-index: 5;
+}
+
+#fourth-con #three .txt-con .body-txt {
+   z-index: 5;
+}
+
+#fourth-con #three .txt-con .body-txt{
+   width: 22rem;
+   position: relative;
+   bottom: 9rem;
+}
+
+#fourth-con #three .image-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+}
+
+#fourth-con #three .image-con #game1 {
+   height: 25rem ;
+   width: 45rem ;
+   z-index: 5;
+   position: absolute;
+   margin-left: 10rem;
+   margin-top: 12rem;
+}
+
+#fourth-con #three .image-con #game2 {
+    height: 25rem ;
+    width: 45rem ;
+    margin-bottom: 12rem;
+
 }
 
 
