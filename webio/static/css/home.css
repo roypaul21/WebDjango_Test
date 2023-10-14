@@ -484,4 +484,5 @@ ul {
     width: 1.5%; /* Set the desired width of the rectangle */
     height: 2rem; /* Set the desired height of the rectangle */
     background-color: white;
+    border-radius: 20px;
 }
