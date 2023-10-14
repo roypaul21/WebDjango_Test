@@ -424,14 +424,19 @@ ul {
 
 /* fifth container */
 .container-fluid#fifth-con {
-    background-color: skyblue;
+    background-color: black;
     font-family: 'Monospace', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 8.5rem ;
-    color:rgba(51, 51, 51, 1);
+    height: 16vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
 }
 
 #fifth-con .contact-con {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -439,13 +444,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 3rem;
-    position: absolute;
+    margin-right: 3%;
 }
 
-#fifth-con .contact-con .email-con p{
-    margin-top: .7rem;
-    margin-left: .4rem;
+#fifth-con .contact-con .email-con p {
+     margin-top: 7%;
+     margin-left: 3%;
 }
 
 
@@ -453,22 +457,31 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 7rem;
-    margin-top: 2rem;
-    position: absolute;
-    
+    margin-left: 5%;
+    width: 15rem;
 }
 
 #fifth-con .contact-con .num-con p{
-    margin-left: .4rem;
-    margin-top: .7rem;
+    margin-top: 10%;
+    margin-left: 4%;
 }
 
+#fifth-con .contact-con .cv-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    width: 15rem;
+}
 
+#fifth-con .contact-con .cv-con p{
+    margin-top: 10%;
+    margin-left: 4%;
+}
 
-
-
-
-
-
-
+#fifth-con .contact-con .line-con {
+    margin-left: 5%;
+    width: 1.5%; /* Set the desired width of the rectangle */
+    height: 2rem; /* Set the desired height of the rectangle */
+    background-color: white;
+}
